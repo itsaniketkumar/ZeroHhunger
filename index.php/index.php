@@ -1,9 +1,9 @@
 <?php
   $conn=mysqli_connect('localhost','root','hunger',);
-$Name = $_POST['Name'];
-$Email = $_POST['Email'];
-$Contact = $_POST['Contact'];
-$Message = $_POST['Message'];
+$name = $_POST['Name'];
+$email = $_POST['Email'];
+$contact = $_POST['Contact'];
+$message = $_POST['Message'];
 
 $host = 'local host';
 $user = 'root';
